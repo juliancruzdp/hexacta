@@ -1,5 +1,9 @@
 /* Estilos Generales */
 
+body {
+    background-color: #e2e2e2;
+}
+
 // Colores
 
 $marron1:#A89F91;
@@ -13,4 +17,179 @@ $verde:#0B9A16;
 $rojo:#C61010;
 
 $blanco:#FFFFFF;
+
+// Fonts
+
+$fonts:'Roboto';
+
+// Background
+
+.backgroundTablero{
+    background:$marron2;
+    height: 180vh;
+    border: 10px solid $blanco;
+
+}
+
+// Diseño Ascensor
+
+div .screen{
+    width: 100%;
+    height: 35vh;
+    background-color: $blanco;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    .destinos{
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        color:$gris1;
+    }
+    label{
+        font-size: 10px;
+        color:$verde;
+    }
+    .destinoActual{
+        font-family:$fonts;
+        font-size: 70px;
+        color:$gris1
+    }
+    .flecha{
+        color: $rojo;
+    }
+    hr{
+        margin-top: -10px;
+    }
+    .capacidad{
+        margin-top: -10px;
+    }
+}
+
+.rounded{
+    background: $gris1;
+    height: 18vh;
+    width: 18vh;
+    font-family: $fonts;
+    font-size: 45px;
+    color: $blanco;
+    cursor: pointer;
+    
+}
+
+.roundedMedium{
+    background: $gris1;
+    height: 18vh;
+    width: 18vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: $fonts;
+    font-size: 45px;
+    color: $blanco;
+    cursor: pointer;
+}
+
+.btn:hover {
+    
+    background-position: 300px 0px;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 1.5s;
+    transition-property: all;
+    transition-duration: 1.5s;
+    color:$verde;
+}
+
+
+.roundedPhone{
+    background: $blanco;
+    height: 18vh;
+    width: 18vh;
+    font-family: $fonts;
+    font-size: 45px;
+    color: $blanco;
+    cursor: pointer;
+}
+
+.roundedBell{
+    background: $blanco;
+    height: 18vh;
+    width: 18vh;
+    font-family: $fonts;
+    font-size: 45px;
+    color: $blanco;
+    cursor: pointer;
+}
+
+.fa-phone-volume{
+    color: $verde;
+}
+.fa-bell{
+    color: $rojo;
+}
+
+.roundedAceptar{
+    background: $blanco;
+    height: 10vh;
+    width: 27vh;
+    font-family: $fonts;
+    font-size: 20px;
+    color: $gris1;
+    cursor: pointer;
+    margin-right: 15px;
+    
+}
+
+.roundedSubir{
+    background: $blanco;
+    height: 10vh;
+    width: 27vh;
+    font-family: $fonts;
+    font-size: 20px;
+    color: $gris1;
+    cursor: pointer;
+    
+}
+
+.roundedWhite{
+    background: $blanco;
+    height: 18vh;
+    width: 18vh;
+    font-family: $fonts;
+    font-size: 45px;
+    color: $gris1;
+    cursor: pointer;
+    
+}
+
+.roundedMediumWhite{
+    background: $blanco;
+    height: 18vh;
+    width: 18vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: $fonts;
+    font-size: 45px;
+    color: $rojo;
+    cursor: pointer;
+}
+
+.roundedAccesibilidad{
+    background: $blanco;
+    height: 10vh;
+    width: 58vh;
+    font-family: $fonts;
+    font-size: 20px;
+    color: $gris1;
+    cursor: pointer;
+    
+}
+
+.fa-accessible-icon{
+    margin-right:10px;
+    color: $verde;
+}
+
+
+
+    
+
 
