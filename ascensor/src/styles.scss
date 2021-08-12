@@ -26,7 +26,7 @@ $fonts:'Roboto';
 
 .backgroundTablero{
     background:$marron2;
-    height: 60rem;
+    height: 55rem;
     border: 10px solid $blanco;
 
 }
@@ -188,7 +188,66 @@ div .screen{
     color: $verde;
 }
 
+// Ajustes Responsive
 
+@media (max-width: 1199px) {
+
+    .backgroundTablero{
+        height: 50rem;
+    }    
+    .rounded{
+        height: 4.5rem;
+        width: 4.5rem;   
+    }
+    .roundedMedium{
+        height: 4.5rem;
+        width: 4.5rem;
+    }    
+    .roundedPhone{
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+    
+    .roundedBell{
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+    
+    .fa-phone-volume{
+        color: $verde;
+    }
+    .fa-bell{
+        color: $rojo;
+    }
+    
+    .roundedAceptar{
+        height: 3rem;
+        width: 6.9rem;
+    }
+    .roundedSubir{
+        height: 3rem;
+        width: 6.9rem;
+    }
+    .roundedWhite{
+        height: 4.5rem;
+        width: 4.5rem;
+        font-size: 30px;
+    }
+    .roundedMediumWhite{
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+    .roundedAccesibilidad{
+        height: 3rem;
+        width: 15.5rem;
+    }
+    
+    .fa-accessible-icon{
+        margin-right:10px;
+        color: $verde;
+    }
+    
+  }
 
     
 
