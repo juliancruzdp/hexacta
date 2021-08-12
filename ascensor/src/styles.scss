@@ -26,7 +26,7 @@ $fonts:'Roboto';
 
 .backgroundTablero{
     background:$marron2;
-    height: 180vh;
+    height: 60rem;
     border: 10px solid $blanco;
 
 }
@@ -35,7 +35,7 @@ $fonts:'Roboto';
 
 div .screen{
     width: 100%;
-    height: 35vh;
+    height: 12rem;
     background-color: $blanco;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -67,8 +67,8 @@ div .screen{
 
 .rounded{
     background: $gris1;
-    height: 18vh;
-    width: 18vh;
+    height: 5.5rem;
+    width: 5.5rem;
     font-family: $fonts;
     font-size: 45px;
     color: $blanco;
@@ -78,8 +78,8 @@ div .screen{
 
 .roundedMedium{
     background: $gris1;
-    height: 18vh;
-    width: 18vh;
+    height: 5.5rem;
+    width: 5.5rem;
     margin-left: 10px;
     margin-right: 10px;
     font-family: $fonts;
@@ -101,8 +101,8 @@ div .screen{
 
 .roundedPhone{
     background: $blanco;
-    height: 18vh;
-    width: 18vh;
+    height: 5.5rem;
+    width: 5.5rem;
     font-family: $fonts;
     font-size: 45px;
     color: $blanco;
@@ -111,8 +111,8 @@ div .screen{
 
 .roundedBell{
     background: $blanco;
-    height: 18vh;
-    width: 18vh;
+    height: 5.5rem;
+    width: 5.5rem;
     font-family: $fonts;
     font-size: 45px;
     color: $blanco;
@@ -128,8 +128,8 @@ div .screen{
 
 .roundedAceptar{
     background: $blanco;
-    height: 10vh;
-    width: 27vh;
+    height: 3rem;
+    width: 8.5rem;
     font-family: $fonts;
     font-size: 20px;
     color: $gris1;
@@ -140,8 +140,8 @@ div .screen{
 
 .roundedSubir{
     background: $blanco;
-    height: 10vh;
-    width: 27vh;
+    height: 3rem;
+    width: 8.5rem;
     font-family: $fonts;
     font-size: 20px;
     color: $gris1;
@@ -151,8 +151,8 @@ div .screen{
 
 .roundedWhite{
     background: $blanco;
-    height: 18vh;
-    width: 18vh;
+    height: 5.5rem;
+    width: 5.5rem;
     font-family: $fonts;
     font-size: 45px;
     color: $gris1;
@@ -162,8 +162,8 @@ div .screen{
 
 .roundedMediumWhite{
     background: $blanco;
-    height: 18vh;
-    width: 18vh;
+    height: 5.5rem;
+    width: 5.5rem;
     margin-left: 10px;
     margin-right: 10px;
     font-family: $fonts;
@@ -174,8 +174,8 @@ div .screen{
 
 .roundedAccesibilidad{
     background: $blanco;
-    height: 10vh;
-    width: 58vh;
+    height: 3rem;
+    width: 17.5rem;
     font-family: $fonts;
     font-size: 20px;
     color: $gris1;
